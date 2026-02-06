@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FCS LIVELYHOOD</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" />
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html" class="Logo">FCS LIVELYHOOD</a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="solution.html">Solution</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>The Importance of Education in Home Economics(FCS)</h1>
+                <p>
+                    FCS is a crucial field that specializes in human development, nutrition, personal finance, housing,
+                    and consumer issues. It aims to equip individuals with the skills and knowledge necessary to make
+                    informed decisions about their well-being and resources, ultimately enhancing their quality of life.
+                </p>
+                <a
+                    href="https://docs.google.com/document/d/1RT9Og9am-NX5Tu7SbenVtkrrAPPBl-Db5tuj-3rRxH0/edit?usp=sharing"
+                    class="btn"
+                    >For an In-depth review of FCS's Issues. Please refer to this guide</a
+                >
+            </div>
+        </section>
+        <!------ Problem Page ------>
+        <section class="problem">
+            <h1>The lack of education in Home Economics or Family and Consumer Sciences (FCS)</h1>
+            <p>
+                The lack of funding for home economics or FCS classes limits individuals' ability to make informed
+                decisions about their well-being, relationships, and resources. This can lead to poor decision-making,
+                which in turn can result in negative outcomes for individuals and communities. Additionally, the lack of
+                education can contribute to economic disparities and poverty, as individuals with limited education may
+                struggle to secure stable employment and contribute to their families.
+            </p>
+            <div class="row">
+                <div class="images">
+                    <img
+                        src="https://homefamily.net/wp-content/uploads/2021/01/Why-Home-Economics-Matters-2048x1363.jpg"
+                        alt="Sample Image" />
+                </div>
+                <div class="images">
+                    <img
+                        src="https://cookingessenstials.files.wordpress.com/2023/01/cookery1.jpg?w=1024"
+                        alt="Sample Image" />
+                </div>
+                <div class="images">
+                    <img
+                        src="https://lifeofthefamily.com/wp-content/uploads/2018/01/discover-your-famly.jpg"
+                        alt="Sample Image" />
+                </div>
+            </div>
+        </section>
+        <!------Javascript for Toggle Menu------>
+        <script>
+            var navLinks = document.getElementById("navLInks");
+            function showMenu() {
+                navLinks.style.right = "0";
+
+             function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
+
